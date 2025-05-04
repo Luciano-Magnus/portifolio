@@ -65,7 +65,7 @@ export default function Home() {
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
                 <div className="absolute inset-1 bg-gray-900 rounded-full flex items-center justify-center">
                   <Image
-                    src="/avatar.png?height=300&width=300"
+                    src="/portfolio/avatar.png?height=300&width=300"
                     alt="Luciano"
                     width={300}
                     height={300}
