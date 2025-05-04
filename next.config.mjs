@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
   eslint: {
     ignoreDuringBuilds: true,
   },
