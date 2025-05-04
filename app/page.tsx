@@ -54,7 +54,7 @@ export default function Home() {
               <p className="text-lg text-gray-400 text-center md:text-left">
                 Especialista em Flutter, .NET, PostgreSQL e Golang.
               </p>
-              <Link href="https://linkedin.com" target="_blank">
+              <Link href="https://www.linkedin.com/in/luciano-magnus?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
                 <Button className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 rounded-md transition-all duration-300 transform hover:scale-105">
                   <Linkedin className="mr-2 h-5 w-5" />
                   Conecte-se no LinkedIn
@@ -65,7 +65,7 @@ export default function Home() {
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
                 <div className="absolute inset-1 bg-gray-900 rounded-full flex items-center justify-center">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/avatar.png?height=300&width=300"
                     alt="Luciano"
                     width={300}
                     height={300}
@@ -143,8 +143,9 @@ export default function Home() {
             </h2>
             <div className="bg-gray-800/50 rounded-xl p-8 shadow-lg">
               <p className="text-lg text-gray-300 mb-6">
-                Sou um desenvolvedor de software com 5 anos de experiência, apaixonado por criar soluções eficientes e
-                elegantes para problemas complexos.
+                Sou um desenvolvedor de software com 5 anos de experiência, formado em Análise e Desenvolvimento de
+                Sistemas desde 2021. Tenho paixão por criar soluções eficientes e elegantes para problemas complexos,
+                sempre buscando unir técnica e criatividade.
               </p>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -204,14 +205,14 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 border-t border-gray-800 py-8 scroll-mt-16" id="contato">
         <div className="max-w-3xl mx-auto px-4 flex flex-col items-center gap-4">
-          <Link href="https://linkedin.com" target="_blank">
+          <Link href="https://www.linkedin.com/in/luciano-magnus?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
             <Button variant="outline" className="border-blue-600 text-blue-400 hover:bg-blue-600/10">
               <Linkedin className="mr-2 h-5 w-5" />
               LinkedIn
             </Button>
           </Link>
           <Link
-            href="https://github.com"
+            href="https://github.com/Luciano-Magnus"
             target="_blank"
             className="text-gray-400 hover:text-white transition-colors mt-2"
           >
